@@ -1,7 +1,6 @@
 """
 Nombre del Patron - Singleton
 Tipo de Patron    - Patron de Diseño Creacional.
-
 """
 
 # Solucion 01
