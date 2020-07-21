@@ -26,3 +26,7 @@ objeto_02.nombre = "Yanina"
 # Al Utilizar este patron de dieño siempre que instanciemos esta clase, siempre será el mismo objeto.
 print('Objeto 01 nombre ==> ', objeto_01.nombre)
 print('Objeto 02 nombre ==> ', objeto_02.nombre)
+
+# Si creamos otro objeto de la misma clase obtendra todos los valores de la primera clase instanciada.
+objeto_03 = Singleton()
+print('Objeto 03 nombre ==> ', objeto_03.nombre)
